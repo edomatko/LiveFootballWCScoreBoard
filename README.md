@@ -6,11 +6,11 @@ This is a simple Java application that allows you to keep track of live scores o
 
 You can interact with the application through the command line interface:
 
-> Start a new match: enter option `1` and follow the prompts to enter the home and away team names.
-> Update score: enter option `2` and provide the match ID, home team score and away team score.
-> Finish a match: enter option `3` and provide the match ID.
-> Get live score board: enter option `4` to see the live score board of matches in progress.
-> Exit: enter option `5` to exit the application.
+- Start a new match: enter option `1` and follow the prompts to enter the home and away team names.
+- Update score: enter option `2` and provide the match ID, home team score and away team score.
+- Finish a match: enter option `3` and provide the match ID.
+- Get live score board: enter option `4` to see the live score board of matches in progress.
+- Exit: enter option `5` to exit the application.
 
 ## Class Details
 
@@ -38,18 +38,18 @@ This is a JUnit test class for the `LiveFootballWCScoreBoard` class.
 
 This class has the following dependencies:
 
-> JUnit
-> LiveFootballWCScoreBoard
-> LiveMatch
+- JUnit
+- LiveFootballWCScoreBoard
+- LiveMatch
 
 ## Tests 
 
 This class has the following tests:
 
-> `teststartNewMatch()`: tests the `startNewMatch()` method of the `LiveFootballWCScoreBoard` class.
-> `testUpdateScore()`: tests the `updateScore()` method of the `LiveFootballWCScoreBoard` class.
-> `testFinishMatch()`: tests the `finishMatch()` method of the `LiveFootballWCScoreBoard` class.
-> `testGetLiveScoreBoard()`: tests the `getliveScoreBoard()` method of the `LiveFootballWCScoreBoard` class.
+- `teststartNewMatch()`: tests the `startNewMatch()` method of the `LiveFootballWCScoreBoard` class.
+- `testUpdateScore()`: tests the `updateScore()` method of the `LiveFootballWCScoreBoard` class.
+- `testFinishMatch()`: tests the `finishMatch()` method of the `LiveFootballWCScoreBoard` class.
+- `testGetLiveScoreBoard()`: tests the `getliveScoreBoard()` method of the `LiveFootballWCScoreBoard` class.
  
 Each test method verifies the expected behavior of a specific method in the `LiveFootballWCScoreBoard` class using assertions provided by JUnit.
 
